@@ -1,4 +1,6 @@
 body {
+  left: -250px;
+  position: relative;
   background-color: #fffbf2;
   background-image: linear-gradient(
     45deg,
@@ -51,6 +53,10 @@ a {
   position: relative;
   left: 320px;
   font-size: 18px;
+}
+main {
+  top: -70px;
+  position: relative;
 }
 
 .leftbar {
@@ -226,12 +232,12 @@ a {
 
 footer {
   position: absolute;
-  top: 780px;
+  top: 665px;
   left: 700px;
 }
 
 footer > div > a {
-  padding: 15px;
+  padding: 0 15px;
 }
 
 /* .coworking > h3:hover {
